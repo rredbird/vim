@@ -32,3 +32,15 @@ function MyDiff()
   endif
 endfunction
 
+"no autowrap
+set nowrap
+
+"no automatic line inserts
+set textwidth=0 wrapmargin=0
+
+"use utf-8
+set encoding=utf-8
+
+"show line numbers
+set nu
+
